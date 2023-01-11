@@ -5,6 +5,7 @@
 }
 body{
     font-family: Montserrat,sans-serif;
+    background-color: #f5f7fb;
 }
 
 a {
@@ -55,13 +56,6 @@ a {
     justify-content: space-between;
     list-style: none;
     padding: 0.6rem 2.5rem 0.6rem 2.5rem ;
-}
-.button__li{
-
- 
-}
-.button__li--a{
- 
 }
 .section{
     display: grid;
@@ -126,4 +120,19 @@ a {
 .footer__p{
   font-size: small;
   font-family: Arial, Helvetica, sans-serif;
+}
+.plan {
+    display: grid;
+}
+.plan__h2{
+    text-align: center;
+    margin-bottom: 1rem;
+}
+.plan__div{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.plan__div--box{
+    background-color: #fcf6f6;
+    opacity: 10;
 }
