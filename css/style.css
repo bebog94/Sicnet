@@ -133,6 +133,22 @@ a {
     grid-template-columns: 1fr 1fr 1fr;
 }
 .plan__div--box{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 3rem;
     background-color: #fcf6f6;
     opacity: 10;
+    padding-left: 4rem;
+}
+.logo_wifi{
+    display: flex;
+    align-self: center;
+    height: 10rem;
+    margin-bottom: 3rem ;
+}
+.wifi_rosa{
+    filter: hue-rotate(120deg)
+}
+.wifi_verde{
+    filter: hue-rotate(290deg)
 }
