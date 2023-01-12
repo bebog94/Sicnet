@@ -5,7 +5,6 @@
 }
 body{
     font-family: Montserrat,sans-serif;
-    background-color: #f5f7fb;
 }
 
 a {
@@ -13,7 +12,7 @@ a {
     color: black
 }
 .div__god{
-    background-color: #fcf6f6;
+    background-color: #f5f7fb;
     margin: 0rem;
 	padding: 0;
 }
