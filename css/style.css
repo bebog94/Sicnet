@@ -130,21 +130,36 @@ a {
 .plan {
     display: grid;
 }
-.plan__h2{
+.plan__h1{
     text-align: center;
     margin-bottom: 1rem;
 }
 .plan__div{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 1.5rem;
+    padding: 2rem;
 }
 .plan__div--box{
     display: flex;
     flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
     margin-bottom: 3rem;
     background-color: #fcf6f6;
-    opacity: 10;
-    padding-left: 4rem;
+    border: 2px solid #4cacd882;
+    border-radius: 0.5rem;
+    padding: 10px;
+}
+.plan__div--ul{
+list-style-type: none;
+}
+.plan__div--li{
+    text-align: center;
+    padding: 11px 10px;
+    display: block;
+    margin: 0;
+    border-bottom: 1px solid rgba(0,0,0,0.1);
 }
 .logo_wifi{
     display: flex;
