@@ -173,3 +173,15 @@ list-style-type: none;
 .wifi_verde{
     filter: hue-rotate(290deg)
 }
+
+
+
+/* MEDIA QUERIES*/
+
+@media screen and ( max-width: 425px) {
+
+ }
+ @media screen and ( max-width: 768px) {
+
+ }
+ 
