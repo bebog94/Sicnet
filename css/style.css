@@ -237,6 +237,17 @@ list-style-type: none;
 }
 
  @media screen and ( max-width: 768px) {
-
+    .section{
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        background-position: 45%
+    }
+    .section__button{
+        align-self: center;
+    }
+    .mapa{
+        width:500px; 
+        height:250px;
+        }
  }
- 
