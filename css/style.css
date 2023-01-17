@@ -190,6 +190,8 @@ list-style-type: none;
 
 @media screen and ( max-width: 425px) {
 
+    /*Header*/
+
     .header__p {
         font-size: 0.8rem;
         padding-left: 0rem;
@@ -202,6 +204,9 @@ list-style-type: none;
     .button__li{
         margin: 1rem;
     }
+
+    /*main*/
+
     .section{
         display: flex;
         justify-content: space-between;
@@ -216,11 +221,18 @@ list-style-type: none;
     }
     .section__info{
     flex-direction: column;
-    padding-left: 0;
+    align-items: center;
     }
     .mapa{
     width:300px; 
     height:200px;
+    }
+
+     /*Servicios internet*/
+     
+    .plan__div{
+        display: flex;
+        flex-direction: column;
     }
 }
 
