@@ -138,7 +138,8 @@ P{
 .servicios{
     display: flex;
     flex-direction: column;
-    padding: 2.5rem 0rem 2.5rem 0rem;
+    padding: 3rem;
+    margin: 2rem;
     align-items: center;
 }
 .servicios__h2{
@@ -146,7 +147,7 @@ P{
 }
 .servicios__p{
     text-align: center;
-    padding: 3rem;
+    margin:4rem;
     align-self: center;
     border-bottom: 1px solid rgba(0,0,0,0.1);
 }
@@ -175,8 +176,8 @@ P{
     padding: 10px;
 }
 .plan__div--ul{
-list-style-type: none;
-padding-left: 0rem;
+    list-style-type: none;
+    padding-left: 0rem;
 }
 .plan__div--li{
     text-align: center;
@@ -197,13 +198,11 @@ padding-left: 0rem;
 .wifi_verde{
     filter: hue-rotate(290deg)
 }
-
 .mapa{
     width:1300px; 
     height:450px;
     border: 0;
 }
-
 
 /* MEDIA QUERIES*/
  @media screen and ( max-width: 768px) {
