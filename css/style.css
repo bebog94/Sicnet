@@ -138,17 +138,20 @@ P{
 .servicios{
     display: flex;
     flex-direction: column;
-    padding: 3rem;
+    padding: 2rem;
     margin: 2rem;
     align-items: center;
+    flex-wrap: wrap;
 }
 .servicios__h2{
     letter-spacing: 0.1rem;
+    
 }
 .servicios__p{
     text-align: center;
-    margin:4rem;
+    margin:2rem;
     align-self: center;
+    width: 40rem;
     border-bottom: 1px solid rgba(0,0,0,0.1);
 }
 .plan {
