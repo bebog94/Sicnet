@@ -150,9 +150,23 @@ P{
 .servicios__p{
     text-align: center;
     margin:2rem;
+    padding: 1rem;
     align-self: center;
     width: 40rem;
     border-bottom: 1px solid rgba(0,0,0,0.1);
+}
+.carrusel{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-self: center;
+    background-image:url(../img/background.jpeg) ;
+}
+.carrusel__contenedor{
+    width: 1080px;
+}
+.carousel__imagen1{
+    width: 50rem;
 }
 .plan {
     display: grid;
