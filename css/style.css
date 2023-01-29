@@ -160,7 +160,10 @@ P{
     flex-direction: column;
     align-items: center;
     align-self: center;
-    background-image:url(../img/background.jpeg) ;
+    background-color: rgba(0, 0, 0, 0.452);
+    background-image:url(../img/background.jpeg),url(../img/background.jpeg);
+    background-repeat: no-repeat;
+    background-position: right bottom, left top;
 }
 .carrusel__contenedor{
     width: 1080px;
