@@ -160,16 +160,19 @@ P{
     flex-direction: column;
     align-items: center;
     align-self: center;
-    background-color: rgba(0, 0, 0, 0.452);
-    background-image:url(../img/background.jpeg),url(../img/background.jpeg);
+    background-color: rgb(21,24,29);
+    background-image:url(../img/background.jpeg);
     background-repeat: no-repeat;
-    background-position: right bottom, left top;
+    background-size: 100%;
 }
-.carrusel__contenedor{
-    width: 1080px;
-}
-.carousel__imagen1{
+.carrusel__imagen{
     width: 50rem;
+}
+.carrusel__txt{
+    padding-top: 0;
+    border-radius: 12%;
+    background-color: #363a3da4;
+    font-weight: bold;
 }
 .plan {
     display: grid;
