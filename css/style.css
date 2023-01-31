@@ -1,3 +1,4 @@
+/*-------------reset-------------*/
 *{
 	margin: 0;
 	padding: 0;
@@ -19,6 +20,7 @@ P{
     margin: 0rem;
 	padding: 0;
 }
+/*-------------Header-------------*/
 .header{
     display: flex;
     flex-direction: column;
@@ -62,6 +64,7 @@ P{
     list-style: none;
     padding: 0.6rem 2.5rem 0.6rem 2.5rem ;
 }
+/*-------------SECTION INDEX-------------*/
 .section{
     display: grid;
     background-repeat: no-repeat;
@@ -126,6 +129,7 @@ P{
     padding: 2rem;
     justify-content: center;
 }
+/*-------------FOOTER-------------*/
 .footer {
     display: flex;
     justify-content: center;
@@ -135,6 +139,7 @@ P{
     font-size: small;
     font-family: Arial, Helvetica, sans-serif;
 }
+/*-------------SERVICIOS-------------*/
 .servicios{
     display: flex;
     flex-direction: column;
@@ -164,6 +169,7 @@ P{
     background-color: #363a3da4;
     font-weight: bold;
 }
+/*-------------PLANES-------------*/
 .plan {
     display: grid;
 }
@@ -211,6 +217,7 @@ P{
 .wifi_verde{
     filter: hue-rotate(290deg)
 }
+/*-------------CONTACTO-------------*/
 .mapa{
     width:1300px; 
     height:450px;

@@ -1,0 +1,11 @@
+/*-------------FOOTER-------------*/
+.footer {
+    display: flex;
+    justify-content: center;
+    background-color: aqua;
+
+    &__p{
+        font-size: small;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+}
