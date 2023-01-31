@@ -141,10 +141,10 @@ P{
     padding: 2rem;
     margin: 2rem;
     align-items: center;
-    flex-wrap: wrap;
 }
 .servicios__h2{
     letter-spacing: 0.1rem;
+    font-weight: bold;
     
 }
 .servicios__p{
@@ -297,4 +297,23 @@ P{
         display: flex;
         flex-direction: column;
     }
+     /*Servicios gaming*/
+     .servicios__p{
+    width: 20rem;
+    }
+
+    /*Contacto*/
+    .contacto{
+        display: flex;
+        flex-direction: column;
+        padding-left: 0;
+    }
+    .contacto__mapa{
+        width:300px; 
+        height:200px;
+        padding:1rem 0rem 0rem 0rem;
+        margin:1rem 0rem 0rem 0rem;
+    }
+    
+
 }
