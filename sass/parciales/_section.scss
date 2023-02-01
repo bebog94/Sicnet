@@ -32,11 +32,11 @@
             grid-area: button;
             align-self: end;
             transition-duration: 0.4s;
-        }
                 &:hover {
                      background-color: #2cd7ee; /* Green */
                      color: white;
                 }
+        }
         &__p{
             grid-area: p1;
             background-color: #ffffff85;
@@ -51,11 +51,12 @@
             margin: 1rem 1rem 0rem 1rem;
             justify-content: space-between;
             padding: 2rem; 
-        }
+        
                 &--p{
                     padding: 2rem;
                     justify-content: center;
                 }
+        }
 }
 .imagen__h3{
     grid-area: h3;

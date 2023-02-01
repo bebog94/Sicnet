@@ -86,10 +86,10 @@ P {
     grid-area: button;
     align-self: end;
     transition-duration: 0.4s; }
-  .section:hover {
-    background-color: #2cd7ee;
-    /* Green */
-    color: white; }
+    .section__button:hover {
+      background-color: #2cd7ee;
+      /* Green */
+      color: white; }
   .section__p {
     grid-area: p1;
     background-color: #ffffff85;
@@ -102,9 +102,9 @@ P {
     margin: 1rem 1rem 0rem 1rem;
     justify-content: space-between;
     padding: 2rem; }
-  .section--p {
-    padding: 2rem;
-    justify-content: center; }
+    .section__info--p {
+      padding: 2rem;
+      justify-content: center; }
 
 .imagen__h3 {
   grid-area: h3;
@@ -121,6 +121,49 @@ P {
   .footer__p {
     font-size: small;
     font-family: Arial, Helvetica, sans-serif; }
+
+/*-------------PLANES-------------*/
+.plan {
+  display: grid; }
+  .plan__h1 {
+    text-align: center;
+    margin-bottom: 1rem; }
+  .plan__div {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 1.5rem;
+    padding: 2rem; }
+    .plan__div--box {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      flex-wrap: wrap;
+      margin-bottom: 3rem;
+      background-color: #fcf6f6;
+      border: 2px solid #4cacd882;
+      border-radius: 0.5rem;
+      padding: 10px; }
+    .plan__div--ul {
+      list-style-type: none;
+      padding-left: 0rem; }
+    .plan__div--li {
+      text-align: center;
+      padding: 11px 10px;
+      display: block;
+      margin: 0;
+      border-bottom: 1px solid rgba(0, 0, 0, 0.1); }
+
+.logo_wifi {
+  display: flex;
+  align-self: center;
+  height: 10rem;
+  margin-bottom: 3rem; }
+
+.wifi_rosa {
+  filter: hue-rotate(120deg); }
+
+.wifi_verde {
+  filter: hue-rotate(290deg); }
 
 /*-------------SERVICIOS-------------*/
 .servicios {
