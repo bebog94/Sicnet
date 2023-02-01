@@ -86,10 +86,10 @@ P {
     grid-area: button;
     align-self: end;
     transition-duration: 0.4s; }
-  .section:hover {
-    background-color: #2cd7ee;
-    /* Green */
-    color: white; }
+    .section__button:hover {
+      background-color: #2cd7ee;
+      /* Green */
+      color: white; }
   .section__p {
     grid-area: p1;
     background-color: #ffffff85;

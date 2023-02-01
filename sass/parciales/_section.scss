@@ -32,11 +32,11 @@
             grid-area: button;
             align-self: end;
             transition-duration: 0.4s;
-        }
                 &:hover {
                      background-color: #2cd7ee; /* Green */
                      color: white;
                 }
+        }
         &__p{
             grid-area: p1;
             background-color: #ffffff85;
