@@ -58,6 +58,9 @@ P {
     color: #ffffff; }
 
 /*-------------SECTION INDEX-------------*/
+.index {
+  overflow: hidden; }
+
 .section {
   display: grid;
   background-repeat: no-repeat;
@@ -81,6 +84,8 @@ P {
     margin: 2rem;
     padding: 1rem;
     border: 0.1rem solid black;
+    width: 10rem;
+    text-align: center;
     justify-content: center;
     background-color: rgba(76, 172, 216, 0.76);
     grid-area: button;
@@ -243,7 +248,10 @@ P {
     flex-direction: column;
     background-position: 45%; }
   .section__button {
-    align-self: center; }
+    align-self: center;
+    width: 9rem;
+    margin: 0.7rem;
+    padding: 0.7rem; }
   .imagen1__h3 {
     font-size: 1.5rem; }
   .section__info {

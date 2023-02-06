@@ -1,4 +1,8 @@
 /*-------------SECTION INDEX-------------*/
+.index{
+    overflow: hidden;
+
+}
 .section{
     display: grid;
     background-repeat: no-repeat;
@@ -27,6 +31,8 @@
             margin: 2rem ;
             padding: 1rem;
             border: 0.1rem solid black;
+            width: 10rem;
+            text-align: center;
             justify-content: center;
             background-color:$celestebtn;
             grid-area: button;
