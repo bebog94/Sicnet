@@ -53,6 +53,7 @@ P {
   box-sizing: border-box;
   justify-content: space-between;
   list-style: none;
+  font-weight: bold;
   padding: 0.6rem 2.5rem 0.6rem 2.5rem; }
   .button__select {
     color: #ffffff; }
