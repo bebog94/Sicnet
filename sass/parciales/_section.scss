@@ -59,8 +59,11 @@
             padding: 2rem; 
         
                 &--p{
+                    display: flex;
                     padding: 2rem;
                     justify-content: center;
+                    text-align: center;
+                    justify-items: center;
                 }
         }
 }

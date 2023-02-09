@@ -108,8 +108,11 @@ P {
     justify-content: space-between;
     padding: 2rem; }
     .section__info--p {
+      display: flex;
       padding: 2rem;
-      justify-content: center; }
+      justify-content: center;
+      text-align: center;
+      justify-items: center; }
 
 .imagen__h3 {
   grid-area: h3;
@@ -120,12 +123,12 @@ P {
 
 /*-------------FOOTER-------------*/
 .footer {
+  background-color: #4CACD8;
+  color: #fff;
   display: flex;
   justify-content: center;
-  background-color: aqua; }
-  .footer__p {
-    font-size: small;
-    font-family: Arial, Helvetica, sans-serif; }
+  font-weight: bold;
+  padding: 0.5rem; }
 
 /*-------------PLANES-------------*/
 .plan {
