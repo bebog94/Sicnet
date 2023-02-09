@@ -91,6 +91,7 @@ P {
     background-color: rgba(76, 172, 216, 0.76);
     grid-area: button;
     align-self: end;
+    border-radius: 1rem;
     transition-duration: 0.4s; }
     .section__button:hover {
       background-color: #2cd7ee;
@@ -173,7 +174,7 @@ P {
       align-self: end;
       font-weight: bold;
       padding: 0.6rem 2.5rem 0.6rem 2.5rem;
-      border-radius: 5px; }
+      border-radius: 1rem; }
 
 .logo_wifi {
   height: 14rem;
@@ -194,7 +195,8 @@ P {
   align-items: center; }
   .servicios__h2 {
     letter-spacing: 0.1rem;
-    font-weight: bold; }
+    font-weight: bold;
+    font-size: calc(1.375rem + 1.5vw); }
   .servicios__p {
     text-align: center;
     margin: 2rem;
@@ -203,14 +205,15 @@ P {
     width: 40rem;
     border-bottom: 1px solid rgba(0, 0, 0, 0.1); }
 
-.carrusel__imagen {
-  width: 50rem; }
-
-.carrusel__txt {
-  padding-top: 0;
-  border-radius: 12%;
-  background-color: #363a3da4;
-  font-weight: bold; }
+.carrusel {
+  max-width: 768px; }
+  .carrusel__imagen {
+    width: 50rem; }
+  .carrusel__txt {
+    padding-top: 0;
+    border-radius: 12%;
+    background-color: #363a3da4;
+    font-weight: bold; }
 
 /*-------------CONTACTO-------------*/
 .mapa {
