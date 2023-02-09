@@ -112,7 +112,8 @@ P {
     padding: 2rem; }
     .section__info--p {
       padding: 2rem;
-      text-align: center; }
+      text-align: center;
+      font-size: calc(0.6rem + 1vw); }
     .section__info--mapa {
       width: 600px;
       height: 400px;
@@ -245,9 +246,21 @@ P {
     background-position: 45%; }
   .section__button {
     align-self: center; }
-  .mapa {
+  .section__info--mapa {
     width: 500px;
-    height: 250px; } }
+    height: 250px; }
+  /*Contacto*/
+  .contacto {
+    display: flex;
+    flex-direction: column;
+    padding-left: 0;
+    align-content: center;
+    flex-wrap: wrap; }
+  .contacto__mapa {
+    width: 500px;
+    height: 250px;
+    padding: 1rem 0rem 0rem 0rem;
+    margin: 1rem 0rem 0rem 0rem; } }
 
 @media screen and (max-width: 425px) {
   /*Header*/
@@ -273,9 +286,10 @@ P {
   .imagen1__h3 {
     font-size: 1.5rem; }
   .section__info {
+    display: flex;
     flex-direction: column;
     align-items: center; }
-  .mapa {
+  .section__info--mapa {
     width: 300px;
     height: 200px; }
   /*Servicios internet*/
@@ -289,7 +303,9 @@ P {
   .contacto {
     display: flex;
     flex-direction: column;
-    padding-left: 0; }
+    padding-left: 0;
+    align-content: center;
+    flex-wrap: wrap; }
   .contacto__mapa {
     width: 300px;
     height: 200px;
