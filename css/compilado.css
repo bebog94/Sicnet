@@ -144,30 +144,39 @@ P {
     grid-template-columns: 1fr 1fr 1fr;
     grid-column-gap: 1.5rem;
     padding: 2rem; }
-    .plan__div--box {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      flex-wrap: wrap;
-      margin-bottom: 3rem;
-      background-color: #fcf6f6;
-      border: 2px solid #4cacd882;
-      border-radius: 0.5rem;
-      padding: 10px; }
-    .plan__div--ul {
+  .plan__box {
+    display: grid;
+    grid-template-rows: 1fr 1fr 3fr 1fr;
+    justify-content: center;
+    max-height: 47rem;
+    align-items: center;
+    margin-bottom: 3rem;
+    background-color: #fcf6f6;
+    border: 2px solid #4cacd882;
+    border-radius: 0.5rem;
+    padding: 10px; }
+    .plan__box--h2 {
+      text-align: center;
+      font-weight: bold; }
+    .plan__box--ul {
       list-style-type: none;
       padding-left: 0rem; }
-    .plan__div--li {
+    .plan__box--li {
       text-align: center;
       padding: 11px 10px;
       display: block;
       margin: 0;
       border-bottom: 1px solid rgba(0, 0, 0, 0.1); }
+    .plan__box--button {
+      box-sizing: border-box;
+      list-style: none;
+      align-self: end;
+      font-weight: bold;
+      padding: 0.6rem 2.5rem 0.6rem 2.5rem;
+      border-radius: 5px; }
 
 .logo_wifi {
-  display: flex;
-  align-self: center;
-  height: 10rem;
+  height: 14rem;
   margin-bottom: 3rem; }
 
 .wifi_rosa {
