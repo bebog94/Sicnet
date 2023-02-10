@@ -10,7 +10,7 @@
         align-self: center;
     }
     .section__info--mapa{
-        width:500px; 
+        width:400px; 
         height:250px;
         }
 
@@ -29,7 +29,14 @@
         padding:1rem 0rem 0rem 0rem;
         margin:1rem 0rem 0rem 0rem;
     }
-    
+    .plan__div{
+    grid-column-gap: 0.5rem;
+    padding: 0.5rem;
+    }
+    .plan__box{
+
+    padding: 0.4rem;
+    }
 
  }
  @media screen and ( max-width: 425px) {
